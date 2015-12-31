@@ -55,7 +55,7 @@ it easier to serve the files by a webserver.*
 
 We have preconfigured the project with a simple development web server.  
 
-To configure your s3 bucket, simply edit server.js and supply `AWS_ACCESS_KEY`, `AWS_SECRET_KEY`. Optionally you may need to configure `AWS.config.region`.
+To configure your Amazon S3 properties , simply edit `config/aws.json` and supply `accessKeyId`, `secretAccessKey` and `bucket`. Optionally you may need to configure `region` but not required in most cases.
 
 The simplest way to start this server is:
 
